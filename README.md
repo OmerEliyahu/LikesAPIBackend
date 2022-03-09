@@ -6,3 +6,5 @@ Open the virtual environment: source environment_name/bin/activate
 Install the dependencies: pip install -r requirements.txt
 To run the project first run: python manage.py migrate
 Python manage.py runserver
+To flush the DB and get new photos run: python manage.py migrate api zero
+And :python mange.py migrate
