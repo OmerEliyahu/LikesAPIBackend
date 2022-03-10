@@ -8,3 +8,4 @@ To run the project first run: python manage.py migrate
 Python manage.py runserver
 To flush the DB and get new photos run: python manage.py migrate api zero
 And :python mange.py migrate
+To run the tests: python manage.py test api
